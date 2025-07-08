@@ -1,5 +1,5 @@
-# テスト用データ
-df <- data.frame(x = 1:10, y = rnorm(10))
+library(aoringo2Rtool)
 
-# aoringo2Rtool の関数を実行
+
+df <- data.frame(x = 1:10, y = rnorm(10))
 hello_plot(df)
